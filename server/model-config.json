@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "blogger"
+  },
+  "AccessToken": {
+    "dataSource": "blogger",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "blogger",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "blogger",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "blogger",
+    "public": false
+  },
+  "blog": {
+    "dataSource": "blogger",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  }
+}

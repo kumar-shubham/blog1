@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "blogger": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "blogger",
+    "password": "",
+    "name": "blogger",
+    "user": "blogger",
+    "connector": "mongodb"
+  }
+}
